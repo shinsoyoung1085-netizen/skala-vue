@@ -1,0 +1,29 @@
+:root {
+  --bg: #eef2f7;
+  --surface: #ffffff;
+  --surface-2: #f7f9fc;
+  --ink: #17232f;
+  --muted: #5c6b7a;
+  --border: #d7e0ea;
+  --accent: #2f6fed;
+  --hot: #d9522f;
+  --hot-bg: #fdece6;
+  --cool: #2f7fd1;
+  --cool-bg: #e9f2fb;
+  --board-bg: #12202f;
+  --board-ink: #eaf2fb;
+  --board-accent: #6ea8ff;
+  --board-muted: #7f93a8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
